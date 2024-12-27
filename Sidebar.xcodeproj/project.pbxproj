@@ -17,6 +17,8 @@
 		9ADDF6DF2D1E681F0031C340 /* SidebarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADDF6DE2D1E681F0031C340 /* SidebarTests.swift */; };
 		9ADDF6E92D1E681F0031C340 /* SidebarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADDF6E82D1E681F0031C340 /* SidebarUITests.swift */; };
 		9ADDF6EB2D1E681F0031C340 /* SidebarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADDF6EA2D1E681F0031C340 /* SidebarUITestsLaunchTests.swift */; };
+		9ADDF6F92D1E6E790031C340 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADDF6F72D1E6E790031C340 /* TitleTableViewCell.swift */; };
+		9ADDF6FA2D1E6E790031C340 /* TitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ADDF6F82D1E6E790031C340 /* TitleTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		9ADDF6E42D1E681F0031C340 /* SidebarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SidebarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ADDF6E82D1E681F0031C340 /* SidebarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarUITests.swift; sourceTree = "<group>"; };
 		9ADDF6EA2D1E681F0031C340 /* SidebarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9ADDF6F72D1E6E790031C340 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		9ADDF6F82D1E6E790031C340 /* TitleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				9ADDF6D22D1E681E0031C340 /* LaunchScreen.storyboard */,
 				9ADDF6D52D1E681E0031C340 /* Info.plist */,
 				9ADDF6CD2D1E681C0031C340 /* Sidebar.xcdatamodeld */,
+				9ADDF6F72D1E6E790031C340 /* TitleTableViewCell.swift */,
+				9ADDF6F82D1E6E790031C340 /* TitleTableViewCell.xib */,
 			);
 			path = Sidebar;
 			sourceTree = "<group>";
@@ -234,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ADDF6FA2D1E6E790031C340 /* TitleTableViewCell.xib in Resources */,
 				9ADDF6D42D1E681E0031C340 /* LaunchScreen.storyboard in Resources */,
 				9ADDF6D12D1E681E0031C340 /* Assets.xcassets in Resources */,
 				9ADDF6CC2D1E681C0031C340 /* Main.storyboard in Resources */,
@@ -261,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ADDF6F92D1E6E790031C340 /* TitleTableViewCell.swift in Sources */,
 				9ADDF6C92D1E681C0031C340 /* ViewController.swift in Sources */,
 				9ADDF6C52D1E681C0031C340 /* AppDelegate.swift in Sources */,
 				9ADDF6CF2D1E681C0031C340 /* Sidebar.xcdatamodeld in Sources */,
